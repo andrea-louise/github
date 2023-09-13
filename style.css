@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    height: 220px;
+    width: 308;
+    background-color: rgb(235, 242, 243);
+    padding: 16px;
+    border-radius: 5px;
+    border:  #1f883d;
+}
+
+    
+button{
+    background-color:#1f883d ;
+    height: 32px;
+    width: 234px;
+    border-radius: 7px;
+    color: white;
+
+}

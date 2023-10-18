@@ -1,33 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI';
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 }
-
-.main{
+body{
     width: 100vw;
     height: 100vh;
-    display: flex;
+    background-color: white;
+    display: block;
+}
+
+
+
+main{
+    background-color: white;
+    width: 403px;
+    height: 586px;
+    display: block;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.box{
-    height: 220px;
-    width: 308;
-    background-color: rgb(235, 242, 243);
-    padding: 16px;
-    border-radius: 5px;
-    border:  #1f883d;
+    position: relative;
+    left: auto;
+    top: 4%;
+    left: auto;
+    left: 30%;
+    padding-bottom: 5%;
 }
 
+#img{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 49px;
+    position: relative;
+    left:42%;
+
+}
+ h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 36px;
+    font-weight:200;
+    position: relative;
+    top: 5%;
+    font-size: x-large;
+    text-align: center;
+ }
+
+.box{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    border: 2px solid #D8DEE4;
+    height: 230px;
+    width: 320px;
+    background: #F6F8FA;
+    padding: 16px;
+    font-size: 14px;
+    border-radius: 3%;
+    position: relative;
+    left: auto;
+    left: 12% ;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box > input{
+    height: 18%;
+    border-radius: 7px;
+    border: 2px solid #D8DEE4;
+}
+
+input:focus {
+  border-color: #097FE3;
     
-button{
-    background-color:#1f883d ;
-    height: 32px;
-    width: 234px;
+}
+
+.btn-signin{
+    border: 2px solid #1F883D;
+    height: 18%;
     border-radius: 7px;
     color: white;
+    background-color: #1F883D;
+    position: relative;
+    bottom: -6%;
+    cursor: pointer;
+}
 
+.btn-signin:hover{
+    transition: 1s;
+    background-color: #196b30;
+}
+
+#create{
+    border: 1px solid #E1E5EA;
+    height: 55px;
+    width: 320px;
+    position: relative;
+    top: 14%;
+    left: 12%;
+    border-radius: 7px;
+    text-decoration: none;
+    padding:3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: medium;
+    font-weight: 350;
+}
+
+#create > a{
+    text-decoration: none;
+    color: #097FE3;
+}
+
+
+.senha > a{
+    position: relative;
+    color:#097FE3;
+    left: 32%;
+    text-decoration: none;
+}
+
+.end{
+
+    position: relative;
+    width: 300px;
+    left: 15%;
+    text-align: center;
+    top: 30%;
+    font-size: smaller;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end > a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #097FE3;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
